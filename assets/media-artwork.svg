@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Final artwork">
+  <rect width="300" height="200" fill="#dc3545"/>
+  <rect x="50" y="40" width="200" height="120" fill="#1a1a1a" stroke="#ffffff" stroke-width="2"/>
+  <text x="150" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ffffff">Final Artwork</text>
+</svg>

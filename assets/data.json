@@ -1,0 +1,36 @@
+{
+  "users": [
+    { "id": 1, "email": "jan.devries@grafischlyceum.nl", "password": "demo123", "naam": "Jan de Vries", "rol": "ICT_PERSONEEL", "userType": "ict" },
+    { "id": 2, "email": "maria.jansen@grafischlyceum.nl", "password": "demo123", "naam": "Maria Jansen", "rol": "ICT_PERSONEEL", "userType": "ict" },
+    { "id": 3, "email": "demo@globalsource.com", "password": "demo123", "naam": "Demo Student", "rol": "STUDENT", "userType": "student" },
+    { "id": 4, "email": "student@grafischlyceum.nl", "password": "student123", "naam": "Demo Student", "rol": "STUDENT", "userType": "student" },
+    { "id": 5, "email": "leraar@grafischlyceum.nl", "password": "leraar123", "naam": "Demo Leraar", "rol": "LERAAR", "userType": "leraar" },
+    { "id": 6, "email": "ict@grafischlyceum.nl", "password": "ict123", "naam": "ICT Beheerder", "rol": "ICT_PERSONEEL", "userType": "ict" }
+  ],
+  "dashboard": {
+    "totalServers": 3,
+    "servers": [
+      { "naam": "Web Server", "ipAdres": "192.168.1.10", "beschrijving": "Hoofd web server voor de leeromgeving", "status": "ACTIEF" },
+      { "naam": "Database Server", "ipAdres": "192.168.1.20", "beschrijving": "Database server voor applicatie data", "status": "ACTIEF" },
+      { "naam": "Backup Server", "ipAdres": "192.168.1.30", "beschrijving": "Server voor dagelijkse backups", "status": "ACTIEF" }
+    ],
+    "stats": {
+      "totalUsers": 150,
+      "activeServers": 3,
+      "totalProjects": 25
+    }
+  },
+    "shop": [
+    { "id": 1, "title": "Digital Dreams Print", "description": "Hoge kwaliteit print van mijn populairste artwork", "price": "€25.00", "image": "assets/shop-print.png" },
+    { "id": 2, "title": "Character Stickers", "description": "Set van 5 vinyl stickers", "price": "€8.50", "image": "assets/shop-sticker.png" },
+    { "id": 3, "title": "Custom Commission", "description": "Persoonlijk artwork op maat", "price": "€75.00", "image": "assets/shop-commission.png" }
+  ],
+  "media": [
+    { "id": 1, "name": "shadow-co-saber.jpg", "size": "2.3 MB", "type": "image", "date": "2024-01-20", "url": "assets/media-anime.png" },
+    { "id": 2, "name": "shadow-co-tactical.png", "size": "1.8 MB", "type": "image", "date": "2024-01-19", "url": "assets/media-character.png" },
+    { "id": 3, "name": "project-presentation.pdf", "size": "4.2 MB", "type": "pdf", "date": "2024-01-18", "url": null },
+    { "id": 4, "name": "video-tutorial.mp4", "size": "15.7 MB", "type": "video", "date": "2024-01-17", "url": null },
+    { "id": 5, "name": "assignment-document.docx", "size": "856 KB", "type": "doc", "date": "2024-01-16", "url": null },
+    { "id": 6, "name": "shadow-co-operator.jpg", "size": "3.1 MB", "type": "image", "date": "2024-01-15", "url": "assets/media-artwork.png" }
+  ]
+}

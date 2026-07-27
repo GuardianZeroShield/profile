@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200" role="img" aria-label="Print">
+  <rect width="250" height="200" fill="#000000"/>
+  <rect x="40" y="30" width="170" height="120" fill="#1a1a1a" stroke="#ffffff" stroke-width="2"/>
+  <text x="125" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffff">Print</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-label="Character design">
+  <rect width="300" height="200" fill="#28a745"/>
+  <ellipse cx="150" cy="90" rx="60" ry="70" fill="#1a1a1a"/>
+  <rect x="110" y="50" width="80" height="50" rx="8" fill="#ffffff" opacity="0.8"/>
+  <text x="150" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffff">Character Design</text>
+</svg>

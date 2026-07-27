@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200" role="img" aria-label="Commission">
+  <rect width="250" height="200" fill="#000000"/>
+  <path d="M60 150 L90 60 L160 60 L190 150 Z" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="125" cy="95" r="20" fill="#ffffff"/>
+  <text x="125" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffff">Commission</text>
+</svg>

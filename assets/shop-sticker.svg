@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200" role="img" aria-label="Sticker">
+  <rect width="250" height="200" fill="#000000"/>
+  <circle cx="90" cy="90" r="35" fill="#ffffff" opacity="0.9"/>
+  <circle cx="160" cy="110" r="28" fill="#cccccc" opacity="0.9"/>
+  <text x="125" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffff">Sticker</text>
+</svg>
