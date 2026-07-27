@@ -1,7 +1,10 @@
+
 <div class="section">
     <div class="section-title">
         <i class="fas fa-video"></i>SHADOWCO VISUALS
     </div>
+
+    
 
     <div class="intro-box">
         Welcome to SHADOWCO VISUALS.<br><br>
@@ -13,6 +16,8 @@
         while expanding the GLOBALSOURCE universe.
     </div>
 </div>
+
+
 
 <div class="skills-section">
     <a href="https://globalsourcecomics.dev/" target="_blank" class="skill-block skill-block-link">
@@ -146,4 +151,365 @@
         </div>
 
     </div>
+
+    
 </div>
+<style>
+
+/* ==========================
+   SHADOWCO VISUALS
+   VTUBER THEME
+========================== */
+
+body {
+    background: linear-gradient(180deg,#121212,#1d1d1d,#121212);
+    color: #ffffff;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00ffcc;
+    border-radius:20px;
+}
+
+/* ==========================
+   INTRO BOX
+========================== */
+
+.intro-box{
+
+    background:#232323;
+
+    border:2px solid #00ffcc;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    color:#dddddd;
+
+    line-height:1.8;
+
+    box-shadow:0 0 25px rgba(0,255,204,.12);
+
+}
+
+/* ==========================
+   SECTIONS
+========================== */
+
+.section{
+
+    width:100%;
+
+    max-width:980px;
+
+    margin-bottom:45px;
+
+}
+
+/* ==========================
+   TITLES
+========================== */
+
+.section-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#00ffcc;
+
+    margin-bottom:22px;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.section-title i{
+
+    font-size:24px;
+
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.skills-section{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:18px;
+
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.skill-block{
+
+    background:linear-gradient(180deg,#2d2d2d,#252525);
+
+    border:2px solid #00ffcc;
+
+    border-radius:16px;
+
+    width:180px;
+
+    min-height:155px;
+
+    padding:20px;
+
+    text-align:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.25s;
+
+    box-sizing:border-box;
+
+}
+
+.skill-block:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 0 18px rgba(0,255,204,.45),
+
+    0 0 45px rgba(0,255,204,.18);
+
+}
+
+/* ==========================
+   ICONS
+========================== */
+
+.skill-block i{
+
+    font-size:36px;
+
+    color:#00ffcc;
+
+    margin-bottom:14px;
+
+    transition:.25s;
+
+}
+
+.skill-block:hover i{
+
+    transform:scale(1.15);
+
+}
+
+/* ==========================
+   TEXT
+========================== */
+
+.skill-block strong{
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+}
+
+.skill-block small{
+
+    color:#cfcfcf;
+
+    line-height:1.4;
+
+    font-size:12px;
+
+}
+
+/* ==========================
+   LINKS
+========================== */
+
+.skill-block-link{
+
+    text-decoration:none;
+
+    color:white;
+
+}
+
+.skill-block-link:hover{
+
+    color:white;
+
+}
+
+/* ==========================
+   BUTTON CARD
+========================== */
+
+.skill-block-link .skill-block{
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+   STATUS BADGES
+========================== */
+
+.badge-active{
+
+    margin-top:12px;
+
+    background:#00ffcc;
+
+    color:#000;
+
+    border-radius:20px;
+
+    padding:4px 12px;
+
+    font-size:11px;
+
+    font-weight:bold;
+
+}
+
+.badge-reserved{
+
+    margin-top:12px;
+
+    border:1px solid #777;
+
+    color:#bbbbbb;
+
+    border-radius:20px;
+
+    padding:4px 12px;
+
+    font-size:11px;
+
+    text-transform:uppercase;
+
+}
+
+/* ==========================
+   FADE IN
+========================== */
+
+.section{
+
+    animation:fadeIn .8s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:700px){
+
+body{
+
+    padding:20px;
+
+}
+
+.skill-block{
+
+    width:100%;
+
+}
+
+.section-title{
+
+    font-size:20px;
+
+}
+
+.intro-box{
+
+    padding:22px;
+
+}
+    .intro-box::before{
+
+content:"🎥 VTUBER CREATOR";
+
+display:inline-block;
+
+margin-bottom:18px;
+
+padding:6px 14px;
+
+background:#00ffcc;
+
+color:#111;
+
+border-radius:20px;
+
+font-size:12px;
+
+font-weight:bold;
+
+letter-spacing:1px;
+
+}
+
+}
+
+    
+
+</style>
